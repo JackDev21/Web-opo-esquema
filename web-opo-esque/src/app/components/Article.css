@@ -1,9 +1,43 @@
 .Article {
-  width: 35rem;
-  height: 35rem;
-  background-color: aqua;
+  width: 90%;
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid grey;
+}
+
+.Article .Container-Text {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+}
+
+.Article .Container-Text .Text {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Article .Container-Img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Article .Container-Img>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 2px -2px 15px 9px rgba(0, 0, 0, 0.5);
 }
