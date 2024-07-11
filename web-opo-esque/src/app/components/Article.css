@@ -1,0 +1,9 @@
+.Article {
+  width: 35rem;
+  height: 35rem;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
